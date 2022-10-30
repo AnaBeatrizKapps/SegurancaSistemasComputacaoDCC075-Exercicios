@@ -1,1 +1,8 @@
-# Seguran-aSistemasComputa-oDCC075-Exercicios
+# Exercícios desenvolvidos na aula de Segurança em Sistemas da Computação - DCC075
+
+## Algoritmos:
+
+**Exercicio1.** RBAC simples
+
+**Exercicio2.** Cifra de Feistel com 16 rodadas
+
