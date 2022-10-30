@@ -12,7 +12,7 @@ def __init__(self, id, author):
 
 rbac = RBAC()
 
-
+# Criando a ROLE e permitindo somente 1 pessoa para essa função
 jr_editor = rbac.create_role('jr_editor', max_subjects=1)
 # Designando 10 editores para essa função e jr_editor é uma função abaixo da função editor
 editor = rbac.create_role('editor', children=jr_editor, max_subjects=10)
@@ -53,7 +53,7 @@ brad.authorize(chief)
 rbac.lock()
 
 some_article = Article(28372, 1)
-# nosso júnior tentando deletar um artigo
+# júnior tentando deletar um artigo
 # a biblioteca corresponderá ao id do john que é 1 com o autor do artigo e
 # permite a operação se eles corresponderem.
 assert rbac.go(1, some_article, delete) is None
