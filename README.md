@@ -4,5 +4,7 @@
 
 **Exercicio1.** RBAC simples
 
-**Exercicio2.** Cifra de Feistel com 16 rodadas
+**Exercicio2.** Cifra de Cesar
+
+**Exercicio3.** Cifra de Feistel com 16 rodadas
 
