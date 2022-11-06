@@ -8,6 +8,8 @@
 
 **Exercicio3.** Cifra de Feistel com 16 rodadas
 
+**Exercicio4.** Criptografia AES com CBC (64 blocos)
+
 ## Instalações necessárias para executar os Exercicios:
 
 **Exercicio1.** 
@@ -22,3 +24,8 @@ $ pip install py-rbac
 $ pip3 install pycryptodome
 ```
 
+**Exercicio4.**
+
+```bash
+$ pip install pycryptodome
+```
