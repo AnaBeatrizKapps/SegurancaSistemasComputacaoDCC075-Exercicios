@@ -7,5 +7,5 @@ bits = bits.generateBits(20000)
 file = open("resultadoBitsBBS.txt", "a")
 
 for bit in bits:
-    file.write(str(bit)+"\n")
+    file.write(str(bit))
 file.close()
