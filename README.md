@@ -10,6 +10,10 @@
 
 **Exercicio4.** Criptografia AES com CBC (64 blocos)
 
+**Exercicio5.** Blum Blum Shub com testes realizados na Suite NIST
+
+**Exercicio6.** Diffie Hellman
+
 ## Instalações necessárias para executar os Exercicios:
 
 **Exercicio1.** 
